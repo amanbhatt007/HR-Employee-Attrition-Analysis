@@ -109,8 +109,8 @@ This final stage transforms the metrics into the visual dashboard for stakeholde
 
 
 ## Project Insights
-- The Overall Attrition Rate is $16.12\%$.
-- Employees who work OverTime have an attrition rate of $30.53\%$, which is nearly double the overall rate.
+- The Overall Attrition Rate is 16.12\%.
+- Employees who work OverTime have an attrition rate of 30.53\%, which is nearly double the overall rate.
 - The Average Monthly Income for attrited employees is $4,787, significantly lower than the average for retained employees.
 - Sales and Laboratory Technicians roles within Research & Development show the highest raw number/rate of attrition.
 - A disproportionately high number of attrited employees rated their Job Satisfaction or Environment Satisfaction as 'Low' (1 or 2).
