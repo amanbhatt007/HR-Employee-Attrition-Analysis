@@ -19,13 +19,7 @@ This project focuses on a comprehensive analysis of Human Resources data to unde
 
 
 ## Process
-The process for your HR Attrition Analysis project is structured into **four core stages**, strictly following the sequence of tools and data you specified: **Raw Data** $\rightarrow$ **Alteryx** $\rightarrow$ **Clean Data** $\rightarrow$ **Power BI**.
-
-Here are the detailed steps:
-
-***
-
-## Stage 1: Data Ingestion and Source
+# Stage 1: Data Ingestion and Source
 
 This stage involves bringing the raw data into the environment where preparation will occur.
 
