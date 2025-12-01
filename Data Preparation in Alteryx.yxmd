@@ -1,0 +1,547 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\amanb\Downloads\HR-Employee-Attrition.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>HR-Employee-Attrition.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Age" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="Attrition" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="BusinessTravel" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="DailyRate" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="Department" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="DistanceFromHome" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="Education" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="EducationField" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="EmployeeCount" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="EmployeeNumber" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="EnvironmentSatisfaction" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="Gender" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="HourlyRate" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="JobInvolvement" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="JobLevel" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="JobRole" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="JobSatisfaction" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="MaritalStatus" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="MonthlyIncome" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="MonthlyRate" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="NumCompaniesWorked" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="Over18" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="OverTime" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="PercentSalaryHike" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="PerformanceRating" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="RelationshipSatisfaction" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="StandardHours" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="StockOptionLevel" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="TotalWorkingYears" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="TrainingTimesLastYear" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="WorkLifeBalance" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="YearsAtCompany" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="YearsInCurrentRole" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="YearsSinceLastPromotion" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+            <Field name="YearsWithCurrManager" size="254" source="File: C:\Users\amanb\Downloads\HR-Employee-Attrition.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="174" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\amanb\AppData\Local\Temp\Alteryx\Engine_10300_2f2ae3cd1a9b45d59a510375b4a95bb6_\Engine_10300_d9c4864978334e3aa4d2b82b0aa73d55~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Age" selected="True" type="Int32" size="4" />
+            <SelectField field="Attrition" selected="True" type="V_String" size="2147483647" />
+            <SelectField field="BusinessTravel" selected="True" type="V_String" size="2147483647" />
+            <SelectField field="DailyRate" selected="True" type="Int32" size="4" />
+            <SelectField field="Department" selected="True" type="V_String" size="2147483647" />
+            <SelectField field="DistanceFromHome" selected="True" type="Int32" size="4" />
+            <SelectField field="Education" selected="True" type="Int32" size="4" />
+            <SelectField field="EducationField" selected="True" type="V_String" size="2147483647" />
+            <SelectField field="EmployeeNumber" selected="True" type="Int32" size="4" />
+            <SelectField field="EnvironmentSatisfaction" selected="True" type="Int32" size="4" />
+            <SelectField field="Gender" selected="True" type="V_String" size="2147483647" />
+            <SelectField field="HourlyRate" selected="True" type="Int32" size="4" />
+            <SelectField field="JobInvolvement" selected="True" type="Int32" size="4" />
+            <SelectField field="JobLevel" selected="True" type="Int32" size="4" />
+            <SelectField field="JobRole" selected="True" type="V_String" size="2147483647" />
+            <SelectField field="JobSatisfaction" selected="True" type="Int32" size="4" />
+            <SelectField field="MaritalStatus" selected="True" type="V_String" size="2147483647" />
+            <SelectField field="MonthlyIncome" selected="True" type="Double" size="8" />
+            <SelectField field="MonthlyRate" selected="True" type="Double" size="8" />
+            <SelectField field="NumCompaniesWorked" selected="True" type="Int32" size="4" />
+            <SelectField field="OverTime" selected="True" type="V_String" size="2147483647" />
+            <SelectField field="PercentSalaryHike" selected="True" type="Double" size="8" />
+            <SelectField field="PerformanceRating" selected="True" type="Int32" size="4" />
+            <SelectField field="RelationshipSatisfaction" selected="True" type="Int32" size="4" />
+            <SelectField field="StockOptionLevel" selected="True" type="Int32" size="4" />
+            <SelectField field="TotalWorkingYears" selected="True" type="Int32" size="4" />
+            <SelectField field="TrainingTimesLastYear" selected="True" type="Int32" size="4" />
+            <SelectField field="WorkLifeBalance" selected="True" type="Int32" size="4" />
+            <SelectField field="YearsAtCompany" selected="True" type="Int32" size="4" />
+            <SelectField field="YearsInCurrentRole" selected="True" type="Int32" size="4" />
+            <SelectField field="YearsSinceLastPromotion" selected="True" type="Int32" size="4" />
+            <SelectField field="YearsWithCurrManager" selected="True" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="270" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\amanb\AppData\Local\Temp\Alteryx\Engine_10300_2f2ae3cd1a9b45d59a510375b4a95bb6_\Engine_10300_21a0365c3da14d528ccdd408d9160f06~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings>
+        <Position x="270" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Age","Attrition","BusinessTravel","DailyRate","Department","DistanceFromHome","Education","EducationField","EmployeeNumber","EnvironmentSatisfaction","Gender","HourlyRate","JobInvolvement","JobLevel","JobRole","JobSatisfaction","MaritalStatus","MonthlyIncome","MonthlyRate","NumCompaniesWorked","OverTime","PercentSalaryHike","PerformanceRating","RelationshipSatisfaction","StockOptionLevel","TotalWorkingYears","TrainingTimesLastYear","WorkLifeBalance","YearsAtCompany","YearsInCurrentRole","YearsSinceLastPromotion","YearsWithCurrManager"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">True</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">title</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\amanb\AppData\Local\Temp\Alteryx\Engine_10300_2f2ae3cd1a9b45d59a510375b4a95bb6_\Engine_10300_f87ae0983c1a4ee18f63dc823b0a2104~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="378" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Attrition] = &quot;Yes&quot; THEN 1 ELSE 0 ENDIF" field="AttritionFlag" size="4" type="Int32" enabled="true" />
+            <FormulaField expression="IF [MonthlyIncome] &lt; 3000 THEN &quot;Low&quot;&#xA;ELSEIF [MonthlyIncome] &lt; 7000 THEN &quot;Medium&quot;&#xA;ELSE &quot;High&quot; ENDIF" field="IncomeCategory" size="2147483647" type="V_String" enabled="true" />
+            <FormulaField expression="IF [YearsAtCompany] &lt; 3 THEN &quot;New&quot;&#xA;ELSEIF [YearsAtCompany] &lt; 8 THEN &quot;Mid&quot;&#xA;ELSE &quot;Long&quot; ENDIF" field="ExperienceGroup" size="2147483647" type="V_String" enabled="true" />
+            <FormulaField expression="IF TRIM([OverTime]) = &quot;Yes&quot; THEN 1 ELSE 0 ENDIF" field="OverTimeFlag" size="4" type="Int32" enabled="true" />
+            <FormulaField expression="([JobSatisfaction] + [EnvironmentSatisfaction] + [RelationshipSatisfaction]) / 3.0" field="EngagementScore" size="10.3" type="FixedDecimal" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>AttritionFlag = IF [Attrition] = "Yes" THEN 1 ELSE 0 ENDIF
+IncomeCategory = IF [...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="486" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\amanb\AppData\Local\Temp\Alteryx\Engine_10300_2f2ae3cd1a9b45d59a510375b4a95bb6_\Engine_10300_d8e142fa02b04ba88d0299daa298aa37~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="486" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="EmployeeNumber" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="606" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[MonthlyIncome] &gt; 0 AND [Age] &gt; 15 AND [YearsAtCompany] &gt;= 0</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[MonthlyIncome] &gt; 0 AND [Age] &gt; 15 AND [YearsAtCompany] &gt;= 0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="654" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\amanb\AppData\Local\Temp\Alteryx\Engine_10300_2f2ae3cd1a9b45d59a510375b4a95bb6_\Engine_10300_31e9fd1271844f31b1ab0d65b26333f6~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="582" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\amanb\AppData\Local\Temp\Alteryx\Engine_10300_2f2ae3cd1a9b45d59a510375b4a95bb6_\Engine_10300_afc8085dd0b1436fa18f64dc893d94bc~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="738" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\amanb\AppData\Local\Temp\Alteryx\Engine_10300_2f2ae3cd1a9b45d59a510375b4a95bb6_\Engine_10300_c307d96291eb4777b220086629372bac~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="774" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\amanb\Downloads\Clean_HR_Data.xlsx|||Employees</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <MipTenantId />
+            <PreserveFormat>False</PreserveFormat>
+            <MipSensitivity />
+            <UNCLocal>False</UNCLocal>
+            <SkipFieldNames>False</SkipFieldNames>
+            <SuppressBlankFile>False</SuppressBlankFile>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Clean_HR_Data.xlsx
+Query=Employees</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output26" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output26" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Unique" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Duplicates" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="True" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="False" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="True" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Data Preparation in Alteryx</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="11859a7c-622d-4b80-a151-9097cb68eac3" />
+      <Telemetry>
+        <PreviousWorkflowId value="8cea2543-7fc4-40d0-9ca3-4e025254c12e" />
+        <OriginWorkflowId value="8cea2543-7fc4-40d0-9ca3-4e025254c12e" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
