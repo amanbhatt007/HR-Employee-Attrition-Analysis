@@ -25,7 +25,7 @@ This stage involves bringing the raw data into the environment where preparation
 
 **Step 1.1: Identify Raw Data Source**
 * **Action:** Locate and select the original, raw HR dataset.
-* **Data Used:** **`HR-Employee-Attrition.csv`** (Input File).
+* **Data Used:** **`<a href="https://github.com/amanbhatt007/HR-Employee-Attrition-Analysis/blob/main/HR-Employee-Attrition.csv">HR-Employee-Attrition.csv</a>`** (Input File).
 
 **Step 1.2: Ingest Data into Preparation Tool**
 * **Action:** Connect the raw CSV file to the input tool within the Alteryx Designer workflow.
@@ -33,9 +33,10 @@ This stage involves bringing the raw data into the environment where preparation
 
 ---
 
-## Stage 2: Data Preparation, Cleaning, and Engineering (Alteryx)
+### Stage 2: Data Preparation, Cleaning, and Engineering (Alteryx)
 
-This stage, as highlighted by your **`Data Preparation In Alteryx.jpg`**, is where data quality checks, transformations, and feature creation happen.
+This stage, as highlighted by your **`<a href="https://github.com/amanbhatt007/HR-Employee-Attrition-Analysis/blob/main/Data%20Preparation%20in%20Alteryx.yxmd">Data Preparation in Alteryx.yxmd
+</a>`**, is where data quality checks, transformations, and feature creation happen.
 
 **Step 2.1: Data Cleansing and Filtering**
 * **Action:** Use Alteryx tools (e.g., Data Cleansing Tool, Filter Tool) to:
@@ -52,21 +53,24 @@ This stage, as highlighted by your **`Data Preparation In Alteryx.jpg`**, is whe
 * **Action:** Use Alteryx Formula and Multi-Field Formula tools to create valuable new features for analysis:
     * Create **Income/Experience Bands** (e.g., **`Income Category`** from `MonthlyIncome` and **`Experience Group`** from `TotalWorkingYears`).
     * Calculate **Engagement Scores** (e.g., averaging `JobSatisfaction`, `EnvironmentSatisfaction`, `JobInvolvement`).
+<img width="1920" height="1080" alt="Data Preparation In Alteryx" src="https://github.com/user-attachments/assets/81c877cb-3cf7-439f-9748-938f75baec37" />
+
 
 **Step 2.4: Export Clean Data**
 * **Action:** Use the Output Data tool in Alteryx to export the completely processed and enriched dataset.
-* **Data Produced:** **`Clean_HR_Data.xlsx - Employees.csv`** (Clean Excel/CSV File).
+* **Data Produced:** **`<a href="https://github.com/amanbhatt007/HR-Employee-Attrition-Analysis/blob/main/Clean_HR_Data.xlsx">Clean_HR_Data.xlsx</a>`** (Clean Excel/CSV File).
 * **Tool:** **Alteryx Designer**.
+<img width="1865" height="941" alt="Clean HR data" src="https://github.com/user-attachments/assets/184dc140-cc0c-4c1e-85ce-17cce84e97d1" />
 
 ---
 
-## Stage 3: Analytical Modeling and Metric Calculation
+### Stage 3: Analytical Modeling and Metric Calculation
 
 This stage prepares the final metrics and insights that will drive the dashboard design.
 
 **Step 3.1: Load Clean Data**
 * **Action:** Import the clean, Alteryx-processed Excel/CSV file into the analytical environment (Power BI).
-* **Data Used:** **`Clean_HR_Data.xlsx - Employees.csv`** (Input for Power BI).
+* **Data Used:** **`<a href="https://github.com/amanbhatt007/HR-Employee-Attrition-Analysis/blob/main/Clean_HR_Data.xlsx">Clean_HR_Data.xlsx</a>`** (Input for Power BI).
 * **Tool:** **Power BI Desktop**.
 
 **Step 3.2: Define Key Performance Indicators (KPIs)**
@@ -81,7 +85,7 @@ This stage prepares the final metrics and insights that will drive the dashboard
 
 ---
 
-## Stage 4: Data Visualization and Reporting (Power BI)
+### Stage 4: Data Visualization and Reporting (Power BI)
 
 This final stage transforms the metrics into the visual dashboard for stakeholder reporting.
 
@@ -97,4 +101,6 @@ This final stage transforms the metrics into the visual dashboard for stakeholde
 **Step 4.3: Final Interactivity and Export**
 * **Action:** Add necessary slicers (filters) to allow end-users to drill down (e.g., by `Gender` or `Education Field`). The final report is then saved and published.
 * **Output:** The final visual report.
-* **Tool:** **Power BI Desktop/Service**. The resulting visualization is represented by **`Project 4 dashboard.png`**.
+* **Tool:** **Power BI Desktop/Service**. The resulting visualization is represented by **`<a href="https://github.com/amanbhatt007/HR-Employee-Attrition-Analysis/blob/main/Project%204.pbix">HR Employee Attrition Analysis Dashboard</a>`**.
+<img width="1408" height="859" alt="Project 4 dashboard" src="https://github.com/user-attachments/assets/06fb4773-f90e-43fa-a73d-11a921dd8d28" />
+
