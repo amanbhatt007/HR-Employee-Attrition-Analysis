@@ -101,5 +101,22 @@ This final stage transforms the metrics into the visual dashboard for stakeholde
 * **Action:** Add necessary slicers (filters) to allow end-users to drill down (e.g., by `Gender` or `Education Field`). The final report is then saved and published.
 * **Output:** The final visual report.
 * **Tool:** **Power BI Desktop/Service**. The resulting visualization is represented by <a href="https://github.com/amanbhatt007/HR-Employee-Attrition-Analysis/blob/main/Project%204.pbix">HR Employee Attrition Analysis Dashboard</a>.
+
+
+## Dashboard
 <img width="1408" height="859" alt="Project 4 dashboard" src="https://github.com/user-attachments/assets/06fb4773-f90e-43fa-a73d-11a921dd8d28" />
+
+
+
+## Project Insights
+- The Overall Attrition Rate is $16.12\%$.
+- Employees who work OverTime have an attrition rate of $30.53\%$, which is nearly double the overall rate.
+- The Average Monthly Income for attrited employees is $4,787, significantly lower than the average for retained employees.
+- Sales and Laboratory Technicians roles within Research & Development show the highest raw number/rate of attrition.
+- A disproportionately high number of attrited employees rated their Job Satisfaction or Environment Satisfaction as 'Low' (1 or 2).
+- The majority of attrition occurs among employees with less than 3 years at the company or less than 1 year since their last promotion.
+
+
+## Final Conclusion
+
 
