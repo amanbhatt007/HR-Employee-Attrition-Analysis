@@ -118,5 +118,4 @@ This final stage transforms the metrics into the visual dashboard for stakeholde
 
 
 ## Final Conclusion
-
-
+This project successfully analyzed HR data, starting with the raw <a href="https://github.com/amanbhatt007/HR-Employee-Attrition-Analysis/blob/main/HR-Employee-Attrition.csv">HR-Employee-Attrition.csv</a> file and utilizing Alteryx for data preparation, which produced the <a href="https://github.com/amanbhatt007/HR-Employee-Attrition-Analysis/blob/main/Clean_HR_Data.xlsx">Clean_HR_Data.xlsx</a>. The analysis identified a high overall attrition rate of 16.12\% driven primarily by factors like excessive OverTime, low Monthly Income, and poor Job Satisfaction. The final insights were visualized on a comprehensive Power BI dashboard (represented by <a href="https://github.com/amanbhatt007/HR-Employee-Attrition-Analysis/blob/main/Project%204%20dashboard.png">HR Employee Attrition Analysis Dashboard</a>), providing HR management with a clear, actionable roadmap to target high-risk employee segments and implement retention strategies.
