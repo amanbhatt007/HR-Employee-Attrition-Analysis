@@ -19,7 +19,7 @@ This project focuses on a comprehensive analysis of Human Resources data to unde
 
 
 ## Process
-## Stage 1: Data Ingestion and Source
+### Stage 1: Data Ingestion and Source
 
 This stage involves bringing the raw data into the environment where preparation will occur.
 
